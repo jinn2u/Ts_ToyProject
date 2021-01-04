@@ -1,0 +1,8 @@
+.DS_Store
+.vscode
+.README.md
+node_modules
+.env
+.yarn-integrity
+dist
+yarn.lock

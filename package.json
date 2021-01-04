@@ -1,0 +1,19 @@
+{
+  "name": "ts_toyproject",
+  "version": "1.0.0",
+  "description": "타입스크립트로 만드는 간단한 블록체인입니다.",
+  "main": "index.js",
+  "repository": "https://github.com/jinn2u/Ts_ToyProject.git",
+  "author": "jinn2u <bsybear623@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc-watch --onSuccess \" node dist/index.js\" "
+  },
+  "devDependencies": {
+    "tsc-watch": "^4.2.9"
+  },
+  "dependencies": {
+    "crypto-js": "^4.0.0",
+    "typescript": "^4.1.3"
+  }
+}
