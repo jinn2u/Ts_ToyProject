@@ -14,13 +14,10 @@
 
 ```json
 {
-    /*컴파일 옵션을 정의.*/
     "compilerOptions": { 
         "module": "commonjs",
         "target": "ES2015",
-        /*트랜스파일 디렉터리에 .js.map 파일이 만들어진다. 소스맵 파일은 변환된 js코드가 ts의 어디에 해당하는 지를 알려준다.*/
         "sourceMap": true,
-        /*소스디렉토리에 그대로 똑같이 구조를 컴파일된 상태로 옮길 때 outDir 를 사용*/
         "outDir": "dist"
     },
     "include": ["src/**/*"],    
