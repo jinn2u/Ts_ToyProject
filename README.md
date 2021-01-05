@@ -8,9 +8,8 @@
 
 👀 typescript: ^4.1.3
 
-
-### 🐳주요 코드
-
+<br><br><br>
+### 🐳주요 코드<br><br>
 🍎tsconfig.json
 
 ```json
@@ -40,7 +39,7 @@ include/exclude는 glob 패턴을 사용하여 트랜스파일할 혹은 제외�
 
 exclude는 아무 설정을 하지 않아도 node_modules, bower_components, jspm_packages, outDir를 default로 제외합니다.
 
-
+<br>
 🍎 CryptoJs의 SHA256을 통하여 블록의 hash를 생성합니다.
 
 ```tsx
@@ -52,14 +51,14 @@ static calculateBlockHash = (
 ): string =>
 ```
 
-
+<br>
 🍎 블록의 속성타입이 올바른지 검증합니다.
 
 ```tsx
 static validateStructure = (aBlock:Block): Boolean =>
 ```
 
-
+<br>
 🍎 새로 만들어진 블록과  이전블록의 속성값을 비교한다.
 
 ```tsx
@@ -69,7 +68,7 @@ const isBlockValid = (
 ): Boolean => 
 ```
 
-
+<br>
 🍎 블록의 구조
 
 ```tsx
@@ -82,6 +81,6 @@ class Block {
 }
 ```
 
-
+<br>
 ## 🍏 결과
 ![Ts_ToyProject%2074fdc9c262aa4437976cb79fc12828be/Untitled.png](Ts_ToyProject%2074fdc9c262aa4437976cb79fc12828be/Untitled.png)
