@@ -59,7 +59,9 @@ const createNewBlock = (data:string): Block => {
     return newBlock
 }
 
-const getHashforBlock = (aBlock: Block):string => Block.calculateBlockHash(aBlock.index, aBlock.previousHash, aBlock.timestamp, aBlock.data)
+const getHashforBlock = (aBlock: Block):string => 
+    Block.calculateBlockHash(aBlock.index, aBlock.previousHash, aBlock.timestamp, aBlock.data)
+    
 const isBlockValid = (candidateBlock: Block, previousBlock: Block): Boolean => {
     if(!Block.validateStructure(candidateBlock)){
         return false
