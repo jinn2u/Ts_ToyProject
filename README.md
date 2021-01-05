@@ -83,4 +83,4 @@ class Block {
 
 <br>
 ## 🍏 결과
-![Ts_ToyProject%2074fdc9c262aa4437976cb79fc12828be/Untitled.png](Ts_ToyProject%2074fdc9c262aa4437976cb79fc12828be/Untitled.png)
+<img src = "https://github.com/jinn2u/Ts_ToyProject/blob/main/gitimg/result.png" height="488" width="488">
