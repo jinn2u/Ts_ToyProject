@@ -84,4 +84,4 @@ class Block {
 <br>
 
 ## 🍏결과
-<img src = "https://github.com/jinn2u/Ts_ToyProject/blob/main/gitimg/result.png" height="488" width="1216">
+<img src = "https://github.com/jinn2u/Ts_ToyProject/blob/main/gitimg/result.png" height="200" width="800">
