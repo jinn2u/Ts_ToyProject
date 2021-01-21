@@ -8,7 +8,7 @@
 
 👀 typescript: ^4.1.3
 
-<br><br>
+<br>
 ### 🐳주요 코드<br><br>
 🍎tsconfig.json
 
